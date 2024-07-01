@@ -1,4 +1,21 @@
 #description {
-    border: 1px solid black;
-    width: 50%;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 250px;
+    border: 6px solid black;
+    border-radius: 15px;
+    margin-left: 50px;
+    background: #5cff5c;
+}
+
+#description h1 {
+    font-size: 80px;
+    margin: 0 0 10px 20px;
+}
+
+#description p {
+    font-size: 27px;
+    margin: 10px 20px 0 20px;
 }
