@@ -1,9 +1,9 @@
 import './App.css'
-import Description from "./Components/Description.tsx";
+import Holder from "./Components/Holder.tsx";
 
 function App() {
     return (
-        <Description />
+        <Holder />
     )
 }
 

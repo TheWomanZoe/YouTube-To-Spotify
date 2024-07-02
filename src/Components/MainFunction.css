@@ -1,0 +1,29 @@
+#main-function {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background: #ff5959;
+    border: 6px solid black;
+    border-radius: 15px;
+}
+
+#not-logged-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#not-logged-in p {
+    color: #811616;
+    font-size: 30px;
+    margin-top: 55px
+}
+
+#login-button {
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    background: #5cff5c;
+    border: 6px solid #aaffaa;
+    border-radius: 20px;
+}
