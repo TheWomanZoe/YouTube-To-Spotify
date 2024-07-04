@@ -26,4 +26,40 @@
     background: #5cff5c;
     border: 6px solid #aaffaa;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+#login-button:hover {
+    border-color: black;
+}
+
+#logged-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logged-in h2 {
+    font-size: 45px;
+}
+
+#logged-in input {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    background: #ff6e6e;
+    width: 400px;
+    padding: 5px 10px;
+}
+
+#logged-in input::placeholder {
+    color: black;
+    opacity: 0.75;
+}
+
+#logged-in input:focus {
+    outline: none;
+    border: none;
 }

@@ -18,7 +18,8 @@ function MainFunction() {
             }
             {loggedIn &&
                 <div id = "logged-in">
-
+                    <h2>Welcome user!</h2>
+                    <input type = "text" placeholder = "Paste in your YouTube link" />
                 </div>
             }
         </div>
